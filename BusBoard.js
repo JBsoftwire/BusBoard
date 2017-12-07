@@ -22,8 +22,8 @@ class Bus {
 }
 
 request(url, function (error, response, body) {
-    console.log('error:', error); // Print the error if one occurred
-    console.log('statusCode:', response && response.statusCode); // Print the response status code if a response was received
+    // console.log('error:', error); // Print the error if one occurred
+    // console.log('statusCode:', response && response.statusCode); // Print the response status code if a response was received
     // console.log('JSON:', body);
     let data = JSON.parse(body);
     // grab (up to) 5 with lowest timeToStation
@@ -40,8 +40,24 @@ request(url, function (error, response, body) {
             }
         }
     })
-    console.log(nextBuses);
-    
+    console.log('The next five buses:');
+    nextBuses.forEach(function(bus) {
+        let minutes = parseInt(bus.ETA/60);
+        let minuteString
+        let secondString
+        if (minutes === 1) {
+            minuteString = minutes + ' minute';
+        } else {
+            minuteString = minutes + ' minutes';
+        }
+        let seconds = parseInt(bus.ETA%60);
+        if (seconds === 1) {
+            secondString = seconds + ' second.';
+        } else {
+            secondString = seconds + ' seconds.';
+        }
+        console.log('A route', bus.route, 'bus will arrive in', minuteString, 'and', secondString)
+    })
 });
 
 // code to insert [item] in [array] at [index]: array.splice(index, 0, item)
