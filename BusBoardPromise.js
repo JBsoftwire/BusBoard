@@ -22,29 +22,6 @@ const appID = '10d7f3ed';
 const appKey = '298858f961a22f8766e39ac81f627ab4';
 let appURL = '&app_id=' + appID + '&app_key=' + appKey;
 
-// program structure:
-// // Promise to get postcode location
-// // Promise to get list of bus stops
-// // Promise.All for the buses from each stop
-// // print out results
-
-class Bus {
-    constructor(line, stop, destination, ETA) {
-        this.line = line;
-        this.stop = stop;
-        this.destination = destination;
-        this.ETA = ETA;
-    }
-}
-
-class Stop {
-    constructor(stopID, distance, name) {
-        this.stopID = stopID;
-        this.distance = distance;
-        this.name = name;
-    }
-}
-
 function getPostcode() {
     console.log('Enter postcode:');
     return readline.prompt();
@@ -54,16 +31,16 @@ function postcodeDataToLocation (data) {
     return [data['latitude'], data['longitude']];
 }
 
-function prepareBusLists(stops, count) {
+function prepareBusLists(stops, count) { // given
     let busList = [];
     stops.forEach((stop) => {
         let buses = [];
         stop.forEach((stoplet) => {
             buses = buses.concat(stoplet);
-        })
+        });
         buses = buses.sort(sorter.earlyBus).slice(0, count);
         busList.push(buses)
-    })
+    });
     return busList
 }
 
@@ -94,14 +71,19 @@ function printBuses(buses, count) {
 
 let busCount = 5;
 let stopCount = 2;
-let postcode = 'N80AH';
 // let postcode = getPostcode();
+let postcode = 'fuck off'
 let urlPostcode = url.postcodeToURL(postcode);
 
-function requestLocation(urlPostcode) {
+function requestLocation(urlPostcode) { // gets the latitude and longitude of a given postcode
     return new Promise((resolve, reject) => {
         request(urlPostcode, (error, response, body) => {
+            logger.warn('error:', error);
             let postcodeData = JSON.parse(body)['result'];
+            if (postcodeData === undefined) {
+                logger.fatal('Failed to recover location data from server. Invalid postcode?');
+                console.log('Error: unable to recover location data from server. Did you enter a valid postcode?');
+            }
             let [latitude, longitude] = postcodeDataToLocation(postcodeData);
             let urlLocation = url.locationToURL(latitude, longitude, appURL);
             if (urlLocation) {resolve(urlLocation)} else {reject('Postcode location retrieval failed.')}
@@ -110,8 +92,12 @@ function requestLocation(urlPostcode) {
 }
 
 function requestNearbyStops(urlLocation) {
+    // gets the nearest stops to the postcode requested
+    // each 'stop' has 'children' representing stops on opposite sides of the road, etc.
+    // these are considered part of the same stop for the purposes of this program
     return new Promise((resolve, reject) => {
         request(urlLocation, (error, response, body) => {
+            logger.warn('error:', error);
             let stopData = JSON.parse(body)['stopPoints'];
             let nearStops = list.makeStopList(stopData).sort(sorter.nearStop).slice(0, stopCount);
             if (nearStops) {resolve(nearStops)} else {reject('Nearby stop list retrieval failed.')}
@@ -119,7 +105,7 @@ function requestNearbyStops(urlLocation) {
     })
 }
 
-function requestArrivals(nearStops) {
+function requestArrivals(nearStops) { // function to get arrivals at all stops requested and combine them into a single mass promise
     let arrivalsList = [];
     nearStops.forEach((stop) => {
         arrivalsList.push(requestArrivalsSingle(stop))
@@ -128,12 +114,14 @@ function requestArrivals(nearStops) {
 }
 
 function requestArrivalsSingle(nearStops) {
-    // nearStops = nearStops.sort(sorter.nearStop).slice(0, stopCount);
+    // requests the bus arrivals from all children of a single bus stop (including all 'child' stops together)
+    // see 'makeStopList' function in 'listMakers.js' for details of child stop handling
     let arrivalsList = [];
     nearStops.forEach((stop) => {
         let arrivals = new Promise((resolve, reject) => {
             let urlBusStop = url.stopToURL(stop, appURL);
             request(urlBusStop, (error, response, body) => {
+                logger.warn('error:', error);
                 let busdata = JSON.parse(body);
                 let buses = list.makeBusList(busdata);
                 if (buses) {resolve(buses)} else {reject('Bus arrival list retrieval failed.')}
@@ -144,12 +132,6 @@ function requestArrivalsSingle(nearStops) {
     return Promise.all(arrivalsList)
 }
 
-let postcodeLocation = requestLocation(urlPostcode);
-
-postcodeLocation.then(
-    (urlLocation) => requestNearbyStops(urlLocation)).then(
-        (nearStops) => requestArrivals(nearStops)).then(
-            (nextBuses) => {
-                nextBuses = prepareBusLists(nextBuses, busCount);
-                printBuses(nextBuses, busCount);
-            });
+requestLocation(urlPostcode).then((urlLocation) => requestNearbyStops(urlLocation))
+                            .then((nearStops) => requestArrivals(nearStops))
+                            .then((nextBuses) => {nextBuses = prepareBusLists(nextBuses, busCount); printBuses(nextBuses, busCount);});

@@ -1,8 +1,8 @@
-function postcodeToURL(postcode) {
+function postcodeToURL(postcode) { // constructs a URL to call the postcodes.io API given a postcode
     return 'https://api.postcodes.io/postcodes/' + postcode;
 }
 
-function locationToURL(latitude, longitude, appURL) {
+function locationToURL(latitude, longitude, appURL) { // constructs a URL to call the TFL nearby bus stops API given coordinates
     let stopTypes = ['NaptanBusCoachStation',
         'NaptanBusWayPoint',
         'NaptanOnstreetBusCoachStopCluster',
@@ -13,7 +13,7 @@ function locationToURL(latitude, longitude, appURL) {
     return 'https://api.tfl.gov.uk/StopPoint?stopTypes=' + stopTypesURL + '&radius=500&lat=' + latitude + '&lon=' + longitude + appURL;
 }
 
-function stopToURL(data, appURL) {
+function stopToURL(data, appURL) { // constructs a URL to call the TFL next arrivals API given a bus stop code
     return 'https://api.tfl.gov.uk/StopPoint/' + data.stopID + '/Arrivals?' + appURL;
 }
 

@@ -15,15 +15,11 @@ class Stop {
     }
 }
 
-function makeStopList(data) {
+function makeStopList(data) { // given appropriate parsed JSON from the TFL API can create an array of Stop objects
     let nearStops = [];
-    // data.forEach((stop) => {
-    //     nearStops = nearStops.concat([stop['Children'], stop['Distance']]);
-    // });
-    // nearStops.forEach((stop) => {
-    //     stop = new Stop(stop[0]['naptanID'], stop[0]['commonName'], stop[1]);
-    // });
     data.forEach((stop) => {
+        // each 'stop' has multiple 'children' representing stops on opposite sides of the road, etc.
+        // these are considered part of the same stop for the purposes of this program
         let nearStoplets = []
         stop['children'].forEach((stoplet) => {
             nearStoplets.push(new Stop(stoplet['naptanId'], stop['distance'], stoplet['commonName']))
@@ -33,8 +29,7 @@ function makeStopList(data) {
     return nearStops
 }
 
-function makeBusList(data) {
-    // line, stop, destination, ETA
+function makeBusList(data) { // given appropriate parsed JSON from the TFL API can create an array of Bus objects
     let nextBuses = [];
     data.forEach((bus) => {
         nextBuses.push(new Bus(bus['lineName'], bus['stationName'], bus['destinationName'], bus['timeToStation']));
