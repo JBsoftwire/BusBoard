@@ -1,18 +1,28 @@
-// an immediately resolved promise
-var p2 = Promise.resolve("foo");
+// var q = new Promise(function(resolve, reject) {
+//     if (/* condition */) {
+//         resolve(/* value */);  // fulfilled successfully
+//     }
+//     else {
+//         reject(/* reason */);  // error, rejected
+//     }
+// });
 
-// can get it after the fact, unlike events
-p2.then((res) => console.log(res));
+var p = new Promise((resolve, reject) => resolve(5));
 
-var p = new Promise(function(resolve, reject) {
-    setTimeout(() => resolve(4), 2000);
+var q = new Promise(function(resolve, reject) {
+    if (true) {
+        resolve(6);
+    } else {
+        reject('No');
+    }
+})
+
+p.then((val) => {console.log(val); console.log(val+10)});
+
+p.then(function(val) {
+    console.log(val + 100)
 });
 
-// handler can't change promise, just value
-p.then((res) => {
-    res += 2;
-    console.log(res);
-});
-
-// still gets 4
-p.then((res) => console.log(res)); 
+// q.then((val) => console.log(val + 100));
+const readline = require('readline-sync');
+readline.prompt()

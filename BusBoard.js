@@ -66,13 +66,9 @@ function locationToURL(data) {
     return 'https://api.tfl.gov.uk/StopPoint?stopTypes='+stopTypesURL+'&radius=500&lat='+latitude+'&lon='+longitude+appURL;
 }
 
-function stopToURL(data) {
-    return 'https://api.tfl.gov.uk/StopPoint/' + data['naptanId'] + '/Arrivals?' + appURL;
-}
-
 console.log('Enter postcode:');
-let postcode = readline.prompt();
-// let postcode = 'N80AH';
+// let postcode = readline.prompt();
+let postcode = 'N80AH';
 let urlPC = 'https://api.postcodes.io/postcodes/' + postcode;
 
 request(urlPC, function (error, response, bodyPostCode) {
@@ -103,4 +99,3 @@ request(urlPC, function (error, response, bodyPostCode) {
         });
     });
 });
-

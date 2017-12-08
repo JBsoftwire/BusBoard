@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "http": "0.0.0",
+    "log4js": "^2.3.12",
     "readline-sync": "^1.4.7",
     "request": "^2.83.0",
     "request-promise": "^4.2.2"
