@@ -54,7 +54,7 @@ function printBuses(buses, count) {
         } else {
             secondString = seconds + ' seconds.';
         }
-        console.log('A route', bus['lineName'], 'bus will arrive in', minuteString, 'and', secondString)
+        console.log('A route', bus['lineName'], 'bus heading toward', bus['destinationName'], 'will arrive at', bus['stationName'], 'in', minuteString, 'and', secondString)
     })
 }
 
