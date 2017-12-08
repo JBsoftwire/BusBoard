@@ -1,4 +1,4 @@
-const request = require('request');
+const request = require('request-promise');
 const fs = require('fs');
 const readline = require('readline-sync');
 //const moment = require('moment-msdate')
@@ -62,25 +62,15 @@ function printBuses(buses, count) {
 // let url = 'https://api.tfl.gov.uk/StopPoint/' + '490G00007836' + '/Arrivals?app_id=' + appID + '&app_key=' + appKey;
 // let url = 'https://api.tfl.gov.uk/StopPoint/' + '490G00012434' + '/Arrivals?app_id=' + appID + '&app_key=' + appKey;
 
-// request(url, function (error, response, body) {
-//     console.log('error:', error); // Print the error if one occurred
-//     console.log('statusCode:', response && response.statusCode); // Print the response status code if a response was received
-//     // console.log('JSON:', body);
-//     let data = JSON.parse(body);
-//     //relevant properties so far: 'timeToStation', 'lineName'
-//     let nextBuses = data.sort(earlyBus).slice(0, busCount)
-//     printBuses(nextBuses, busCount);
-// });
-
 console.log('Enter postcode:');
-//let busStop = readline.prompt();
+let postcode = readline.prompt();
 // let postcode = 'N80AH';
-let postcode = 'NW51TL';
+// let postcode = 'NW51TL';
 let urlPC = 'https://api.postcodes.io/postcodes/' + postcode;
 
 request(urlPC, function (error, response, bodyPostCode) {
-    console.log('error:', error); // Print the error if one occurred
-    console.log('statusCode:', response && response.statusCode); // Print the response status code if a response was received
+    // console.log('error:', error); // Print the error if one occurred
+    // console.log('statusCode:', response && response.statusCode); // Print the response status code if a response was received
     // console.log('JSON:', body);
     let postcodeData = JSON.parse(bodyPostCode)['result'];
     // grab latitude and longitude
@@ -90,28 +80,26 @@ request(urlPC, function (error, response, bodyPostCode) {
     let urlBS = 'https://api.tfl.gov.uk/StopPoint?stopTypes='+stopTypes+'&radius=500&lat='+latitude+'&lon='+longitude+appUrl;
     // call up stop from TFL
     request(urlBS, function (error, response, bodyBusStop) {
-        console.log('error:', error); // Print the error if one occurred
-        console.log('statusCode:', response && response.statusCode); // Print the response status code if a response was received
-        // console.log('JSON:', body);
         let stopData = JSON.parse(bodyBusStop)['stopPoints'];
         let nearStops = stopData.sort(nearStop).slice(0, stopCount);
-        console.log(nearStops);
-        nearStops.forEach(function(stop) {
-            console.log(stop['naptanId']);
-            let url = 'https://api.tfl.gov.uk/StopPoint/' + stop['stationNaptan'] + '/Arrivals?app_id=' + appID + '&app_key=' + appKey;
-            // let url = 'https://api.tfl.gov.uk/StopPoint/' + '490008660N' + '/Arrivals?app_id=' + appID + '&app_key=' + appKey;
-            request(url, function (error, response, bodyNextBus) {
-                console.log('error:', error); // Print the error if one occurred
-                console.log('statusCode:', response && response.statusCode); // Print the response status code if a response was received
-                // console.log('JSON:', body);
-                let busData = JSON.parse(bodyNextBus);
-                console.log(busData)
-                //relevant properties so far: 'timeToStation', 'lineName'
-                let nextBuses = busData.sort(earlyBus).slice(0, busCount);
-                printBuses(nextBuses, busCount);
+        let nextBuses = [];
+        let k = 0;
+        nearStops.forEach(function(nearStop) {
+            nearStop['children'].forEach(function(stop) {
+                let url = 'https://api.tfl.gov.uk/StopPoint/' + stop['naptanId'] + '/Arrivals?app_id=' + appID + '&app_key=' + appKey;
+                // let url = 'https://api.tfl.gov.uk/StopPoint/' + '490008660N' + '/Arrivals?app_id=' + appID + '&app_key=' + appKey;
+                request(url, function (error, response, bodyNextBus) {
+                    let busdata = JSON.parse(bodyNextBus);
+                    nextBuses = nextBuses.concat(busdata);
+                    // relevant properties so far: 'timeToStation', 'lineName'
+                    k++
+                    if (k === nearStops.length) {
+                        nextBuses = nextBuses.sort(earlyBus).slice(0, busCount);
+                        printBuses(nextBuses, busCount);
+                    }
+                });
             });
-        })
-        //NEXT: pull next bus data for them and turn into a bus list
+        });
     })
 });
 
@@ -245,3 +233,42 @@ request(urlPC, function (error, response, bodyPostCode) {
 //     "NaptanPublicBusCoachTram",
 // ]
 
+// request(urlPC) .then(function(bodyPostCode) {
+//         // console.log('JSON:', body);
+//         let postcodeData = JSON.parse(bodyPostCode)['result'];
+//         // grab latitude and longitude
+//         let [longitude, latitude] = [postcodeData['longitude'],postcodeData['latitude']];
+//         let stopTypes = 'NaptanBusCoachStation%2CNaptanBusWayPoint%2CNaptanOnstreetBusCoachStopCluster%2CNaptanOnstreetBusCoachStopPair%2CNaptanPrivateBusCoachTram%2CNaptanPublicBusCoachTram';
+//         let appUrl = '&app_id=' + appID + '&app_key=' + appKey;
+//         urlBS = 'https://api.tfl.gov.uk/StopPoint?stopTypes='+stopTypes+'&radius=500&lat='+latitude+'&lon='+longitude+appUrl;
+//     }) .catch(function(err) {
+//         console.log('Could not obtain postcode information.')
+// });
+//
+// let nextBuses = [];
+// let nearStops;
+//
+// request(urlBS) .then(function(bodyBusStop) {
+//     let stopData = JSON.parse(bodyBusStop)['stopPoints'];
+//     nearStops = stopData.sort(nearStop).slice(0, stopCount);
+// }) .catch(function(err) {
+//     console.log('Could not obtain bus stop information.')
+// });
+//
+// nearStops.forEach(function(nearStop) {
+//     nearStop['children'].forEach(function(stop) {
+//         console.log(stop['naptanId']);
+//         let url = 'https://api.tfl.gov.uk/StopPoint/' + stop['naptanId'] + '/Arrivals?app_id=' + appID + '&app_key=' + appKey;
+//         // let url = 'https://api.tfl.gov.uk/StopPoint/' + '490008660N' + '/Arrivals?app_id=' + appID + '&app_key=' + appKey;
+//         request(url) .then, function (error, response, bodyNextBus) {
+//             console.log('error:', error); // Print the error if one occurred
+//             console.log('statusCode:', response && response.statusCode); // Print the response status code if a response was received
+//             // console.log('JSON:', body);
+//             let busdata = JSON.parse(bodyNextBus);
+//             nextBuses = nextBuses.concat(busdata);
+//             // relevant properties so far: 'timeToStation', 'lineName'
+//         });
+//     });
+// });
+// nextBuses = nextBuses.sort(earlyBus).slice(0, busCount);
+// printBuses(nextBuses, busCount);
