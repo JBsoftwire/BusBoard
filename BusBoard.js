@@ -5,6 +5,7 @@ const readline = require('readline-sync');
 
 const appID = '10d7f3ed';
 const appKey = '298858f961a22f8766e39ac81f627ab4';
+let appURL = '&app_id=' + appID + '&app_key=' + appKey;
 
 let busCount = 5;
 let stopCount = 2;
@@ -42,42 +43,47 @@ function printBuses(buses, count) {
     })
 }
 
-// let url = 'https://api.tfl.gov.uk/StopPoint/' + '490008660N' + '/Arrivals?app_id=' + appID + '&app_key=' + appKey;
-// let url = 'https://api.tfl.gov.uk/StopPoint/' + '490G00007836' + '/Arrivals?app_id=' + appID + '&app_key=' + appKey;
-// let url = 'https://api.tfl.gov.uk/StopPoint/' + '490G00012434' + '/Arrivals?app_id=' + appID + '&app_key=' + appKey;
+function locationToURL(data) {
+    let [longitude, latitude] = [data['longitude'], data['latitude']];
+    let stopTypes = ['NaptanBusCoachStation',
+        'NaptanBusWayPoint',
+        'NaptanOnstreetBusCoachStopCluster',
+        'NaptanOnstreetBusCoachStopPair',
+        'NaptanPrivateBusCoachTram',
+        'NaptanPublicBusCoachTram'];
+    let stopTypesURL = stopTypes.join('%2C');
+    return 'https://api.tfl.gov.uk/StopPoint?stopTypes='+stopTypesURL+'&radius=500&lat='+latitude+'&lon='+longitude+appURL;
+}
+
+function stopToURL(data) {
+    return 'https://api.tfl.gov.uk/StopPoint/' + data['naptanId'] + '/Arrivals?' + appURL;
+}
 
 console.log('Enter postcode:');
 let postcode = readline.prompt();
 // let postcode = 'N80AH';
-// let postcode = 'NW51TL';
 let urlPC = 'https://api.postcodes.io/postcodes/' + postcode;
 
 request(urlPC, function (error, response, bodyPostCode) {
     // console.log('error:', error); // Print the error if one occurred
     // console.log('statusCode:', response && response.statusCode); // Print the response status code if a response was received
-    // console.log('JSON:', body);
     let postcodeData = JSON.parse(bodyPostCode)['result'];
     // grab latitude and longitude
-    let [longitude, latitude] = [postcodeData['longitude'],postcodeData['latitude']];
-    let stopTypes = 'NaptanBusCoachStation%2CNaptanBusWayPoint%2CNaptanOnstreetBusCoachStopCluster%2CNaptanOnstreetBusCoachStopPair%2CNaptanPrivateBusCoachTram%2CNaptanPublicBusCoachTram';
-    let appUrl = '&app_id=' + appID + '&app_key=' + appKey;
-    let urlBS = 'https://api.tfl.gov.uk/StopPoint?stopTypes='+stopTypes+'&radius=500&lat='+latitude+'&lon='+longitude+appUrl;
+    let urlBS = locationToURL(postcodeData);
     // call up stop from TFL
     request(urlBS, function (error, response, bodyBusStop) {
         let stopData = JSON.parse(bodyBusStop)['stopPoints'];
-        let nearStops = stopData.sort(nearStop).slice(0, stopCount);
+        let nearStops = stopData.sort(nearStop).slice(0, stopCount); // get [stopCount] nearest stops
         let nextBuses = [];
-        let k = 0;
+        let stopsChecked = 0;
         nearStops.forEach(function(nearStop) {
-            nearStop['children'].forEach(function(stop) {
-                let url = 'https://api.tfl.gov.uk/StopPoint/' + stop['naptanId'] + '/Arrivals?app_id=' + appID + '&app_key=' + appKey;
-                // let url = 'https://api.tfl.gov.uk/StopPoint/' + '490008660N' + '/Arrivals?app_id=' + appID + '&app_key=' + appKey;
+            nearStop['children'].forEach(function(stop) { // looks at the substops (e.g. both directions) of a stop
+                let url = stopToURL(stop);
                 request(url, function (error, response, bodyNextBus) {
                     let busdata = JSON.parse(bodyNextBus);
-                    nextBuses = nextBuses.concat(busdata);
-                    // relevant properties so far: 'timeToStation', 'lineName'
-                    k++
-                    if (k === nearStops.length) {
+                    nextBuses = nextBuses.concat(busdata); // adds the approaching buses for that stop to the array
+                    stopsChecked++; // increases # of stops checked by 1
+                    if (stopsChecked === nearStops.length) { // if all stops have been checked, finds five nearest and prints
                         nextBuses = nextBuses.sort(earlyBus).slice(0, busCount);
                         printBuses(nextBuses, busCount);
                     }
