@@ -71,8 +71,7 @@ function printBuses(buses, count) {
 
 let busCount = 5;
 let stopCount = 2;
-// let postcode = getPostcode();
-let postcode = 'fuck off'
+let postcode = getPostcode();
 let urlPostcode = url.postcodeToURL(postcode);
 
 function requestLocation(urlPostcode) { // gets the latitude and longitude of a given postcode
