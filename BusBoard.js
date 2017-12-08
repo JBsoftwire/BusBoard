@@ -1,7 +1,18 @@
+const log4js = require('log4js');
+log4js.configure({
+    appenders: {
+        file: { type: 'fileSync', filename: 'logs/BusBoard.log' }
+    },
+    categories: {
+        default: { appenders: ['file'], level: 'debug'}
+    }
+});
+const logger = log4js.getLogger('BusBoard.log');
+
+logger.trace('initiating program');
+
 const request = require('request-promise');
-const fs = require('fs');
 const readline = require('readline-sync');
-//const moment = require('moment-msdate')
 
 const appID = '10d7f3ed';
 const appKey = '298858f961a22f8766e39ac81f627ab4';
@@ -90,5 +101,6 @@ request(urlPC, function (error, response, bodyPostCode) {
                 });
             });
         });
-    })
+    });
 });
+

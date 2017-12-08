@@ -1,19 +1,18 @@
-var request = require('request');
-// request('http://www.google.com', function (error, response, body) {
-//     console.log('error:', error); // Print the error if one occurred
-//     console.log('statusCode:', response && response.statusCode); // Print the response status code if a response was received
-//     console.log('body:', body); // Print the HTML for the Google homepage.
-// });
+// an immediately resolved promise
+var p2 = Promise.resolve("foo");
 
-function insert(array, item, index) { //inserts [item] at [index] in [array] by bumping array entries from [index] and higher up 1 step
-    let obj = array
-    let tail = obj.splice(index);
-    obj.push(item);
-    return obj.concat(tail)
-}
+// can get it after the fact, unlike events
+p2.then((res) => console.log(res));
 
-let list = ['one', 'two', 'three', 'four'];
+var p = new Promise(function(resolve, reject) {
+    setTimeout(() => resolve(4), 2000);
+});
 
-let nextBuses = new Array(5).fill(['none', 'infinity'],0)
+// handler can't change promise, just value
+p.then((res) => {
+    res += 2;
+    console.log(res);
+});
 
-console.log(nextBuses)
+// still gets 4
+p.then((res) => console.log(res)); 
