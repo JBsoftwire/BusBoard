@@ -14,6 +14,13 @@ const request = require('request-promise');
 const readline = require('readline-sync');
 
 const url = require('./URLconstructors');
+const list = require('./listMakers');
+const sorter = require('./sorters');
+
+
+const appID = '10d7f3ed';
+const appKey = '298858f961a22f8766e39ac81f627ab4';
+let appURL = '&app_id=' + appID + '&app_key=' + appKey;
 
 // program structure:
 // // Promise to get postcode location
@@ -47,95 +54,102 @@ function postcodeDataToLocation (data) {
     return [data['latitude'], data['longitude']];
 }
 
+function prepareBusLists(stops, count) {
+    let busList = [];
+    stops.forEach((stop) => {
+        let buses = [];
+        stop.forEach((stoplet) => {
+            buses = buses.concat(stoplet);
+        })
+        buses = buses.sort(sorter.earlyBus).slice(0, count);
+        busList.push(buses)
+    })
+    return busList
+}
+
 function printBuses(buses, count) {
-    console.log('The next', count, 'buses:');
-    buses.forEach(function(bus) {
-        let minutes = parseInt(bus.ETA/60);
-        let minuteString;
-        let secondString;
-        if (minutes === 1) {
-            minuteString = minutes + ' minute';
-        } else {
-            minuteString = minutes + ' minutes';
-        }
-        let seconds = parseInt(bus.ETA%60);
-        if (seconds === 1) {
-            secondString = seconds + ' second.';
-        } else {
-            secondString = seconds + ' seconds.';
-        }
-        console.log('A route', bus['lineName'], 'bus heading toward', bus['destinationName'], 'will arrive at', bus['stationName'], 'in', minuteString, 'and', secondString)
+    // 'buses' is an array. each entry is a subarray, containing 1 or more subsubarrays.
+    // each subsubarray is a list of buses arriving next
+    buses.forEach((stop) => {
+        console.log('The next', stop.length, 'buses arriving at', stop[0].stop, 'will be:');
+        stop.forEach(function(bus) {
+            let minutes = parseInt(bus.ETA/60);
+            let minuteString;
+            let secondString;
+            if (minutes === 1) {
+                minuteString = minutes + ' minute';
+            } else {
+                minuteString = minutes + ' minutes';
+            }
+            let seconds = parseInt(bus.ETA%60);
+            if (seconds === 1) {
+                secondString = seconds + ' second.';
+            } else {
+                secondString = seconds + ' seconds.';
+            }
+            console.log('A route', bus.line, 'bus heading toward', bus.destination, 'will arrive at', bus.stop, 'in', minuteString, 'and', secondString)
+        })
     })
 }
 
 let busCount = 5;
 let stopCount = 2;
-// let postcode = 'N80AH';
-console.log('Enter postcode:');
-let postcode = getPostcode();
+let postcode = 'N80AH';
+// let postcode = getPostcode();
 let urlPostcode = url.postcodeToURL(postcode);
 
-let postcodeLocation = new Promise((resolve, reject) => {
-    request(urlPostcode, (error, response, body) => {
-        let postcodeData = JSON.parse(body)['result'];
-        let [latitude, longitude] = postcodeDataToLocation(postcodeData);
-        let urlLocation = url.locationToURL(latitude, longitude);
-        if (urlLocation) {resolve(urlLocation)} else {reject('Postcode location retrieval failed.')}
-    });
-});
+function requestLocation(urlPostcode) {
+    return new Promise((resolve, reject) => {
+        request(urlPostcode, (error, response, body) => {
+            let postcodeData = JSON.parse(body)['result'];
+            let [latitude, longitude] = postcodeDataToLocation(postcodeData);
+            let urlLocation = url.locationToURL(latitude, longitude, appURL);
+            if (urlLocation) {resolve(urlLocation)} else {reject('Postcode location retrieval failed.')}
+        });
+    })
+}
 
-postcodeLocation.then((urlLocation) => {
-    let busStops = new Promise((resolve, reject) => {
+function requestNearbyStops(urlLocation) {
+    return new Promise((resolve, reject) => {
         request(urlLocation, (error, response, body) => {
             let stopData = JSON.parse(body)['stopPoints'];
-            let nearStops = makeStopList(stopData);
+            let nearStops = list.makeStopList(stopData).sort(sorter.nearStop).slice(0, stopCount);
             if (nearStops) {resolve(nearStops)} else {reject('Nearby stop list retrieval failed.')}
-        });
-    });
-});
+        })
+    })
+}
 
-busStops.then((nearStops) => {
-    nearStops = nearStops.sort(nearStop).slice(0, stopCount);
-    //find nearest stops HERE
-    // let nearStopsRaw = stopData.sort(nearStop).slice(0, stopCount); // get [stopCount] nearest stops
+function requestArrivals(nearStops) {
+    let arrivalsList = [];
+    nearStops.forEach((stop) => {
+        arrivalsList.push(requestArrivalsSingle(stop))
+    })
+    return Promise.all(arrivalsList)
+}
+
+function requestArrivalsSingle(nearStops) {
+    // nearStops = nearStops.sort(sorter.nearStop).slice(0, stopCount);
     let arrivalsList = [];
     nearStops.forEach((stop) => {
         let arrivals = new Promise((resolve, reject) => {
-            let urlBusStop = stopToURL(stop);
+            let urlBusStop = url.stopToURL(stop, appURL);
             request(urlBusStop, (error, response, body) => {
                 let busdata = JSON.parse(body);
-                let buses = makeBusList(busdata)
+                let buses = list.makeBusList(busdata);
                 if (buses) {resolve(buses)} else {reject('Bus arrival list retrieval failed.')}
             });
         });
         arrivalsList = arrivalsList.concat(arrivals)
     });
-});
+    return Promise.all(arrivalsList)
+}
 
-Promise.all(arrivalsList).then((nextBuses) => {
-    nextBuses = nextBuses.sort(earlyBus).slice(0, busCount); // finds the next [busCount] buses to arrive
-    printBuses(nextBuses, busCount); // display the selected buses
-});
+let postcodeLocation = requestLocation(urlPostcode);
 
-
-
-request(urlBusStop, function (error, response, bodyBusStop) {
-    let stopData = JSON.parse(bodyBusStop)['stopPoints'];
-    let nearStops = stopData.sort(nearStop).slice(0, stopCount); // get [stopCount] nearest stops
-    let nextBuses = [];
-    let stopsChecked = 0;
-    nearStops.forEach(function(nearStop) {
-        nearStop['children'].forEach(function(stop) { // looks at the substops (e.g. both directions) of a stop
-            let url = stopToURL(stop);
-            request(url, function (error, response, bodyNextBus) {
-                let busdata = JSON.parse(bodyNextBus);
-                nextBuses = nextBuses.concat(busdata); // adds the approaching buses for that stop to the array
-                stopsChecked++; // increases # of stops checked by 1
-                if (stopsChecked === nearStops.length) { // if all stops have been checked, finds five nearest and prints
-                    nextBuses = nextBuses.sort(earlyBus).slice(0, busCount);
-                    printBuses(nextBuses, busCount);
-                }
+postcodeLocation.then(
+    (urlLocation) => requestNearbyStops(urlLocation)).then(
+        (nearStops) => requestArrivals(nearStops)).then(
+            (nextBuses) => {
+                nextBuses = prepareBusLists(nextBuses, busCount);
+                printBuses(nextBuses, busCount);
             });
-        });
-    });
-});

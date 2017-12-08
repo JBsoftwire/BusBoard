@@ -1,6 +1,6 @@
 function earlyBus(busA, busB) { //sorting function for bus arrival times
     if (busA.ETA < busB.ETA) {return -1;}
-    if (busB.ETA < busA.ETA]) {return 1;}
+    if (busB.ETA < busA.ETA) {return 1;}
     return 0;
 }
 
