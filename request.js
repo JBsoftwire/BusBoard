@@ -47,7 +47,6 @@ function requestNearbyStops(urlLocation, stopCount) {
     // these are considered part of the same stop for the purposes of this program
     return new Promise((resolve, reject) => {
         request(urlLocation, (error, response, body) => {
-            logger.warn('error:', error);
             let stopData = JSON.parse(body)['stopPoints'];
             let nearStops = list.makeStopList(stopData).sort(sorter.nearStop).slice(0, stopCount);
             if (nearStops) {resolve(nearStops)} else {reject('Nearby stop list retrieval failed.')}
@@ -75,7 +74,6 @@ function requestArrivalsSingle(nearStops, appURL) {
         let arrivals = new Promise((resolve, reject) => {
             let urlBusStop = url.stopToURL(stop, appURL);
             request(urlBusStop, (error, response, body) => {
-                logger.warn('error:', error);
                 let busdata = JSON.parse(body);
                 let buses = list.makeBusList(busdata);
                 if (buses) {resolve(buses)} else {reject('Bus arrival list retrieval failed.')}

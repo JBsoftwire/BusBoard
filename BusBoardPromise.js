@@ -67,7 +67,8 @@ function printBuses(buses) {
 
 let busCount = 5;
 let stopCount = 2;
-let postcode = getPostcode();
+// let postcode = getPostcode();
+let postcode = 'N80AH';
 let urlPostcode = url.postcodeToURL(postcode);
 
 requests.requestLocation(urlPostcode, appURL).then((urlLocation) => requests.requestNearbyStops(urlLocation, stopCount),

@@ -1,0 +1,676 @@
+[2017-12-11T11:16:23.590] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T11:17:23.587] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T11:19:14.690] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T11:20:00.259] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T11:21:57.786] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T11:22:13.012] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T11:23:35.166] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T11:23:35.246] [WARN] BusBoard2.log - error: null
+[2017-12-11T11:23:35.248] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T11:23:35.250] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T11:30:49.570] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T11:30:49.947] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T11:30:50.023] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T11:30:50.024] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T11:31:28.373] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T11:31:28.848] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T11:31:29.090] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T11:31:29.092] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T11:32:25.134] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T11:32:25.554] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T11:32:25.623] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T11:32:25.625] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T11:33:04.701] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T11:33:05.127] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T11:33:05.197] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T11:33:05.198] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T11:34:34.243] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T11:34:34.471] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T11:34:34.548] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T11:34:34.550] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T11:34:35.170] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T11:34:47.431] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T11:34:48.525] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T11:34:48.872] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T11:34:48.951] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T11:34:48.953] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T11:35:55.096] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T11:35:55.333] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T11:35:55.406] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T11:35:55.408] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T11:35:55.538] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T11:37:15.584] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T11:37:16.674] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T11:37:17.029] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T11:37:17.101] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T11:37:17.102] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T11:39:18.859] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T11:39:19.889] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T11:39:20.336] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T11:39:20.424] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T11:39:20.426] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T11:43:01.078] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T11:43:01.497] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T11:43:01.595] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T11:43:01.598] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T11:44:46.979] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T11:44:47.388] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T11:44:47.489] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T11:44:47.491] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T11:45:29.303] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T11:45:29.550] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T11:45:29.621] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T11:45:29.623] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T11:45:29.670] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T11:45:29.671] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:45:29.673] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:45:29.675] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:45:29.676] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:45:29.677] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:45:29.679] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:45:29.680] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:45:29.681] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:45:51.673] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T11:45:52.087] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T11:45:52.220] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T11:45:52.222] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T11:46:07.826] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T11:46:07.828] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:47:22.379] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:47:22.381] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:47:22.385] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:47:22.389] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:47:22.392] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:47:22.396] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:47:22.400] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:47:23.559] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T11:47:24.005] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T11:47:24.093] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T11:47:24.094] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T11:47:28.216] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T11:47:28.217] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:47:32.650] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T11:47:32.885] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T11:47:32.954] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T11:47:32.957] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T11:47:33.059] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T11:47:33.061] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:47:33.063] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:47:33.065] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:47:33.067] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:47:33.069] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:47:33.070] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:47:33.071] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:47:33.072] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:48:39.996] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:48:40.063] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:48:40.066] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:48:40.067] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:48:40.069] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:48:40.071] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:48:40.072] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:48:41.104] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T11:48:41.521] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T11:48:41.615] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T11:48:41.618] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T11:48:41.705] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T11:48:41.706] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:48:41.731] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:48:41.744] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:48:41.771] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:48:41.773] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:48:41.797] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:48:41.825] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:48:41.827] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:53:33.746] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T11:53:34.192] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T11:53:34.282] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T11:53:34.284] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T11:53:34.373] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T11:53:34.375] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:54:16.624] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:54:16.628] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:54:16.631] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:54:16.634] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:54:16.640] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:54:16.644] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:54:16.646] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:54:30.519] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T11:54:30.925] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T11:54:31.015] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T11:54:31.017] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T11:54:31.158] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T11:54:31.162] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:54:31.206] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:54:31.223] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:54:31.258] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:54:31.260] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:54:31.288] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:54:31.321] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:54:31.323] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:56:07.263] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T11:56:07.671] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T11:56:19.339] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T11:56:19.758] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T11:56:35.939] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T11:56:36.232] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T11:58:53.588] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T11:58:53.832] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T11:58:53.910] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T11:58:53.912] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T11:58:54.045] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T11:58:54.048] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:58:54.051] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:58:54.053] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:58:54.055] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:58:54.056] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:58:54.058] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:58:54.060] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:58:54.061] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:58:59.901] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T11:59:00.323] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T11:59:00.412] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T11:59:00.414] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T11:59:00.471] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T11:59:00.472] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:59:00.497] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:59:00.512] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:59:00.536] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:59:00.538] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:59:00.568] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:59:00.595] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T11:59:00.597] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:00:14.631] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T12:00:14.883] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T12:00:14.960] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T12:00:14.962] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T12:00:15.126] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T12:00:15.128] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:00:15.130] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:00:15.132] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:00:15.134] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:00:15.136] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:00:15.137] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:00:15.140] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:00:15.143] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:00:15.677] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T12:00:26.173] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T12:00:26.644] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T12:00:26.743] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T12:00:26.745] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T12:00:26.800] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T12:00:26.801] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:00:26.825] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:00:26.839] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:00:26.864] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:00:26.865] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:00:26.891] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:00:26.921] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:00:26.923] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:00:40.656] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T12:01:05.015] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T12:01:05.274] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T12:01:05.410] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T12:01:05.412] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T12:01:05.497] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T12:01:05.499] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:01:05.501] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:01:05.503] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:01:05.504] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:01:05.505] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:01:05.506] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:01:05.507] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:01:05.508] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:01:06.120] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T12:01:06.122] [DEBUG] BusBoard2.log - Entered printBuses.
+[2017-12-11T12:02:05.182] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T12:02:05.710] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T12:02:05.807] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T12:09:25.050] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T12:09:25.935] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T12:09:26.235] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T12:09:26.306] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T12:09:26.308] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T12:09:26.399] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T12:09:26.401] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:09:26.403] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:09:26.588] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T12:09:26.590] [DEBUG] BusBoard2.log - Entered printBuses.
+[2017-12-11T12:10:12.658] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T12:10:12.901] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T12:10:12.981] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T12:10:12.983] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T12:10:13.111] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T12:10:13.113] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:10:13.115] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:10:13.914] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T12:10:13.916] [DEBUG] BusBoard2.log - Entered printBuses.
+[2017-12-11T12:11:15.729] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T12:11:15.985] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T12:11:16.054] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T12:11:16.055] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T12:11:16.108] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T12:11:16.109] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:11:16.112] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:11:16.645] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T12:11:16.647] [DEBUG] BusBoard2.log - Entered printBuses.
+[2017-12-11T12:11:47.130] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T12:11:47.375] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T12:11:47.482] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T12:11:47.484] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T12:11:47.582] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T12:11:47.584] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:11:47.586] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:11:48.369] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T12:11:48.371] [DEBUG] BusBoard2.log - Entered printBuses.
+[2017-12-11T12:12:28.016] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T12:12:28.262] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T12:12:28.332] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T12:12:28.334] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T12:12:28.403] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T12:12:28.404] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:12:28.406] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:12:28.577] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T12:12:28.578] [DEBUG] BusBoard2.log - Entered printBuses.
+[2017-12-11T12:13:39.768] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T12:13:39.999] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T12:13:40.083] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T12:13:40.085] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T12:13:40.333] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T12:13:40.335] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:13:40.338] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:13:40.487] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T12:13:40.491] [DEBUG] BusBoard2.log - Entered printBuses.
+[2017-12-11T12:13:53.059] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T12:13:53.588] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T12:13:53.673] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T12:14:00.559] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T12:14:01.288] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T12:14:01.557] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T12:14:01.658] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T12:14:01.660] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T12:14:01.726] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T12:14:01.728] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:14:01.730] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:14:01.911] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T12:14:01.913] [DEBUG] BusBoard2.log - Entered printBuses.
+[2017-12-11T12:14:22.462] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T12:14:22.859] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T12:14:22.947] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T12:14:22.949] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T12:14:23.022] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T12:14:23.026] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:14:23.070] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:14:23.382] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T12:14:23.385] [DEBUG] BusBoard2.log - Entered printBuses.
+[2017-12-11T12:14:44.610] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T12:14:45.076] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T12:14:45.164] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T12:14:45.166] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T12:15:28.217] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T12:15:28.220] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:15:28.225] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:15:29.354] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T12:15:29.778] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T12:15:29.872] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T12:15:29.874] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T12:15:30.119] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T12:15:30.121] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:15:30.149] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:15:30.402] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T12:15:30.404] [DEBUG] BusBoard2.log - Entered printBuses.
+[2017-12-11T12:15:47.205] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T12:15:47.531] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T12:15:47.602] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T12:15:47.604] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T12:15:47.682] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T12:15:47.684] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:15:47.687] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:15:47.927] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T12:15:47.930] [DEBUG] BusBoard2.log - Entered printBuses.
+[2017-12-11T12:15:53.529] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T12:15:54.018] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T12:15:54.115] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T12:15:54.117] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T12:15:54.319] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T12:15:54.321] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:15:54.346] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:15:54.432] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T12:16:25.985] [DEBUG] BusBoard2.log - Entered printBuses.
+[2017-12-11T12:16:27.009] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T12:16:27.555] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T12:16:27.648] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T12:16:27.650] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T12:21:02.298] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T12:21:02.300] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:21:02.304] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:21:02.390] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T12:21:02.393] [DEBUG] BusBoard2.log - Entered printBuses.
+[2017-12-11T12:21:03.013] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T12:21:03.356] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T12:21:03.432] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T12:21:03.435] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T12:21:03.549] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T12:21:03.550] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:21:03.553] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:21:03.801] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T12:21:03.803] [DEBUG] BusBoard2.log - Entered printBuses.
+[2017-12-11T12:22:17.572] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T12:22:17.830] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T12:22:17.902] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T12:22:17.904] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T12:22:17.959] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T12:22:17.960] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:22:17.963] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:22:18.113] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T12:22:18.115] [DEBUG] BusBoard2.log - Entered printBuses.
+[2017-12-11T12:22:18.117] [ERROR] BusBoard2.log - TypeError: Cannot read property 'stop' of undefined
+    at buses.forEach (C:\Work\Training\BusBoard\print.js:39:75)
+    at Array.forEach (<anonymous>)
+    at Object.printBuses (C:\Work\Training\BusBoard\print.js:38:11)
+    at location.requestLocation.then.then.then (C:\Work\Training\BusBoard\BusBoard2.js:40:84)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2017-12-11T12:22:41.069] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T12:22:41.582] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T12:22:41.669] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T12:22:41.671] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T12:23:49.138] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T12:23:49.141] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:23:49.188] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:23:49.339] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T12:23:50.386] [DEBUG] BusBoard2.log - Entered printBuses.
+[2017-12-11T12:24:22.710] [ERROR] BusBoard2.log - TypeError: Cannot read property 'stop' of undefined
+    at buses.forEach (C:\Work\Training\BusBoard\print.js:39:75)
+    at Array.forEach (<anonymous>)
+    at Object.printBuses (C:\Work\Training\BusBoard\print.js:38:11)
+    at location.requestLocation.then.then.then (C:\Work\Training\BusBoard\BusBoard2.js:40:84)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2017-12-11T12:24:23.823] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T12:24:24.369] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T12:24:24.463] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T12:24:24.465] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T12:24:25.569] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T12:24:25.573] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:24:25.602] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:24:25.817] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T12:24:26.778] [DEBUG] BusBoard2.log - Entered printBuses.
+[2017-12-11T12:26:23.248] [ERROR] BusBoard2.log - TypeError: Cannot read property 'stop' of undefined
+    at buses.forEach (C:\Work\Training\BusBoard\print.js:39:75)
+    at Array.forEach (<anonymous>)
+    at Object.printBuses (C:\Work\Training\BusBoard\print.js:38:11)
+    at location.requestLocation.then.then.then (C:\Work\Training\BusBoard\BusBoard2.js:40:84)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2017-12-11T12:26:24.288] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T12:26:24.854] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T12:26:48.653] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T12:26:48.655] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T12:26:49.708] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T12:26:50.228] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T12:26:50.318] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T12:26:50.320] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T12:27:21.451] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T12:27:21.453] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:27:21.457] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:27:22.589] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T12:27:23.147] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T12:27:23.238] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T12:27:23.240] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T12:28:02.312] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T12:28:02.314] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:28:02.343] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:28:03.979] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T12:29:02.127] [DEBUG] BusBoard2.log - Entered printBuses.
+[2017-12-11T12:29:02.129] [ERROR] BusBoard2.log - TypeError: Cannot read property 'stop' of undefined
+    at buses.forEach (C:\Work\Training\BusBoard\print.js:39:75)
+    at Array.forEach (<anonymous>)
+    at Object.printBuses (C:\Work\Training\BusBoard\print.js:38:11)
+    at location.requestLocation.then.then.then (C:\Work\Training\BusBoard\BusBoard2.js:40:84)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2017-12-11T12:29:03.164] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T12:29:03.783] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T12:29:03.872] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T12:29:03.873] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T12:30:41.869] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T12:30:41.870] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:30:41.874] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:30:43.045] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T12:30:43.722] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T12:30:43.833] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T12:30:43.835] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T12:31:14.418] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T12:31:14.420] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:31:14.424] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:31:15.563] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T12:31:16.284] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T12:31:16.384] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T12:31:16.385] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T12:31:26.338] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T12:31:26.341] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:31:26.346] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:31:26.461] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T12:31:26.465] [DEBUG] BusBoard2.log - Entered printBuses.
+[2017-12-11T12:31:27.508] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T12:31:28.207] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T12:31:28.309] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T12:31:28.312] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T12:31:31.696] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T12:31:31.699] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:31:31.702] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:31:31.775] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T12:31:34.062] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T12:31:34.741] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T12:31:34.831] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T12:31:34.833] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T12:33:50.122] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T12:33:50.124] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:33:50.128] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:33:51.250] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T12:33:51.940] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T12:33:52.027] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T12:33:52.029] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T12:34:47.344] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T12:34:47.346] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:34:47.348] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:34:47.407] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T12:34:47.409] [DEBUG] BusBoard2.log - Entered printBuses.
+[2017-12-11T12:34:47.410] [ERROR] BusBoard2.log - TypeError: Cannot read property 'stop' of undefined
+    at buses.forEach (C:\Work\Training\BusBoard\print.js:39:75)
+    at Array.forEach (<anonymous>)
+    at Object.printBuses (C:\Work\Training\BusBoard\print.js:38:11)
+    at location.requestLocation.then.then.then (C:\Work\Training\BusBoard\BusBoard2.js:40:84)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2017-12-11T12:35:25.376] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T12:35:26.119] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T12:35:26.212] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T12:35:26.214] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T12:54:14.696] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T12:54:14.698] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:54:14.702] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:54:15.982] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T12:54:16.837] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T12:54:16.937] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T12:54:16.939] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T12:55:02.102] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T12:55:02.104] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:55:02.108] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:55:03.272] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T12:55:04.042] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T12:55:04.134] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T12:55:04.135] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T12:55:32.279] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T12:55:32.962] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T12:55:33.065] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T12:55:33.067] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T12:58:16.832] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T12:58:17.490] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T12:58:17.577] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T12:58:17.578] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T12:58:53.641] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T12:58:54.303] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T12:58:54.390] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T12:58:54.391] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T12:59:27.874] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T12:59:28.551] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T12:59:28.681] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T12:59:28.683] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T12:59:47.039] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T12:59:47.040] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:59:53.358] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T12:59:55.612] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T13:00:17.382] [DEBUG] BusBoard2.log - Entered printBuses.
+[2017-12-11T13:00:25.422] [ERROR] BusBoard2.log - TypeError: Cannot read property 'stop' of undefined
+    at buses.forEach (C:\Work\Training\BusBoard\print.js:39:75)
+    at Array.forEach (<anonymous>)
+    at Object.printBuses (C:\Work\Training\BusBoard\print.js:38:11)
+    at location.requestLocation.then.then.then (C:\Work\Training\BusBoard\BusBoard2.js:40:84)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2017-12-11T13:01:02.187] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T13:01:02.429] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T13:01:02.507] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T13:01:02.510] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T13:01:02.555] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T13:01:02.557] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T13:01:02.560] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T13:01:03.231] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T13:01:03.233] [DEBUG] BusBoard2.log - Entered printBuses.
+[2017-12-11T13:01:03.235] [ERROR] BusBoard2.log - TypeError: Cannot read property 'stop' of undefined
+    at buses.forEach (C:\Work\Training\BusBoard\print.js:39:75)
+    at Array.forEach (<anonymous>)
+    at Object.printBuses (C:\Work\Training\BusBoard\print.js:38:11)
+    at location.requestLocation.then.then.then (C:\Work\Training\BusBoard\BusBoard2.js:40:84)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2017-12-11T13:01:44.192] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T13:01:44.819] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T13:01:44.917] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T13:01:44.919] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T13:01:49.797] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T13:01:49.799] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T13:01:49.823] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T13:01:53.405] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T13:01:54.854] [DEBUG] BusBoard2.log - Entered printBuses.
+[2017-12-11T13:04:35.922] [ERROR] BusBoard2.log - TypeError: Cannot read property 'stop' of undefined
+    at buses.forEach (C:\Work\Training\BusBoard\print.js:39:75)
+    at Array.forEach (<anonymous>)
+    at Object.printBuses (C:\Work\Training\BusBoard\print.js:38:11)
+    at location.requestLocation.then.then.then (C:\Work\Training\BusBoard\BusBoard2.js:40:84)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2017-12-11T13:04:36.963] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T13:04:37.585] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T13:04:37.676] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T13:04:37.678] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T13:04:45.168] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T13:04:45.171] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T13:04:45.176] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T13:04:46.261] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T13:04:46.782] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T13:04:46.873] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T13:04:46.876] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T13:04:47.361] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T13:04:47.363] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T13:04:47.394] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T13:05:02.427] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T13:05:02.430] [DEBUG] BusBoard2.log - Entered printBuses.
+[2017-12-11T13:05:02.433] [ERROR] BusBoard2.log - TypeError: Cannot read property 'stop' of undefined
+    at buses.forEach (C:\Work\Training\BusBoard\print.js:39:75)
+    at Array.forEach (<anonymous>)
+    at Object.printBuses (C:\Work\Training\BusBoard\print.js:38:11)
+    at location.requestLocation.then.then.then (C:\Work\Training\BusBoard\BusBoard2.js:40:84)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2017-12-11T13:05:04.212] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T13:05:04.742] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T13:05:04.834] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T13:05:04.835] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T13:05:04.976] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T13:05:04.978] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T13:05:05.017] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T13:05:19.226] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T13:05:19.229] [DEBUG] BusBoard2.log - Entered printBuses.
+[2017-12-11T13:05:19.232] [ERROR] BusBoard2.log - TypeError: Cannot read property 'stop' of undefined
+    at buses.forEach (C:\Work\Training\BusBoard\print.js:39:75)
+    at Array.forEach (<anonymous>)
+    at Object.printBuses (C:\Work\Training\BusBoard\print.js:38:11)
+    at location.requestLocation.then.then.then (C:\Work\Training\BusBoard\BusBoard2.js:40:84)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2017-12-11T13:05:19.815] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T13:05:20.102] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T13:05:20.175] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T13:05:20.177] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T13:05:20.257] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T13:05:20.259] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T13:05:20.262] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T13:05:22.010] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T13:05:22.012] [DEBUG] BusBoard2.log - Entered printBuses.
+[2017-12-11T13:05:22.014] [ERROR] BusBoard2.log - TypeError: Cannot read property 'stop' of undefined
+    at buses.forEach (C:\Work\Training\BusBoard\print.js:39:75)
+    at Array.forEach (<anonymous>)
+    at Object.printBuses (C:\Work\Training\BusBoard\print.js:38:11)
+    at location.requestLocation.then.then.then (C:\Work\Training\BusBoard\BusBoard2.js:40:84)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2017-12-11T13:05:38.840] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T13:05:39.453] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T13:05:39.561] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T13:05:39.563] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T13:05:39.627] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T13:05:39.630] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T13:06:16.210] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T13:06:17.339] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T13:06:17.983] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T13:06:18.099] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T13:06:18.101] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T13:06:18.185] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T13:06:18.186] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T13:07:22.528] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T13:07:23.654] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T13:07:24.086] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T13:07:24.177] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T13:07:24.179] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T13:07:24.239] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T13:07:24.240] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T13:07:24.263] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T13:07:25.045] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T13:07:45.508] [DEBUG] BusBoard2.log - Entered printBuses.
+[2017-12-11T13:07:46.522] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T13:07:47.008] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T13:07:47.096] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T13:07:47.098] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T13:07:47.153] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T13:07:47.155] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T13:07:47.180] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T13:07:48.430] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T13:10:48.958] [DEBUG] BusBoard2.log - Entered printBuses.
+[2017-12-11T13:10:48.960] [ERROR] BusBoard2.log - TypeError: Cannot read property 'stop' of undefined
+    at buses.forEach (C:\Work\Training\BusBoard\print.js:39:75)
+    at Array.forEach (<anonymous>)
+    at Object.printBuses (C:\Work\Training\BusBoard\print.js:38:11)
+    at location.requestLocation.then.then.then (C:\Work\Training\BusBoard\BusBoard2.js:40:84)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2017-12-11T13:10:59.955] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T13:11:00.407] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T13:11:00.509] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T13:11:00.512] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T13:11:00.573] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T13:11:00.575] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T13:11:00.601] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T13:11:05.168] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T13:11:05.171] [DEBUG] BusBoard2.log - Entered printBuses.
+[2017-12-11T13:12:54.882] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T13:12:55.179] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T13:12:55.276] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T13:12:55.278] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T13:12:55.360] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T13:12:55.362] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T13:12:55.365] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T13:12:55.975] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T13:12:55.977] [DEBUG] BusBoard2.log - Entered printBuses.
