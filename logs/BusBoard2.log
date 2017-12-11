@@ -1264,3 +1264,32 @@
 [2017-12-11T17:10:01.751] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
 [2017-12-11T17:10:01.753] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
 [2017-12-11T17:10:01.798] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T17:15:17.925] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T17:15:17.991] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T17:15:17.993] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T17:15:18.173] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T17:15:18.177] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T17:15:18.182] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T17:15:19.305] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T17:15:38.368] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T17:15:38.422] [FATAL] BusBoard2.log - Failed to recover location data from server. Invalid postcode?
+[2017-12-11T17:15:38.425] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T17:15:38.426] [ERROR] BusBoardApp.log - Cannot form arrivals list.
+[2017-12-11T17:15:38.428] [WARN] BusBoardApp.log - Something went wrong.
+[2017-12-11T17:16:01.158] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T17:16:01.183] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T17:16:01.184] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T17:16:01.220] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T17:16:01.221] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T17:16:01.224] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T17:16:02.564] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T17:16:21.719] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T17:16:21.739] [FATAL] BusBoard2.log - Failed to recover location data from server. Invalid postcode?
+[2017-12-11T17:16:21.742] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T17:16:21.743] [ERROR] BusBoardApp.log - Cannot form arrivals list.
+[2017-12-11T17:16:21.744] [WARN] BusBoardApp.log - Something went wrong.
+[2017-12-11T17:16:40.511] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T17:16:40.532] [FATAL] BusBoard2.log - Failed to recover location data from server. Invalid postcode?
+[2017-12-11T17:16:40.534] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T17:16:40.537] [ERROR] BusBoardApp.log - Cannot form arrivals list.
+[2017-12-11T17:16:40.538] [WARN] BusBoardApp.log - Something went wrong.
