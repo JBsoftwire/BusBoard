@@ -30,8 +30,8 @@ function getPostcode() {
 let counts = new Object();
 counts.busCount = 5;
 counts.stopCount = 2;
-// let postcode = getPostcode();
-let postcode= 'SW193JR';
+let postcode = getPostcode();
+// let postcode= 'SW193JR';
 // let postcode= 'N80AH';
 
 location.requestLocation(postcode)
