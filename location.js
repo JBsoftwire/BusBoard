@@ -32,7 +32,7 @@ function requestLocation(postcode) {
             if (postcodeData) {
                 logger.debug('successfully retrieved location data');
                 resolve(postcodeDataToLocation(postcodeData))
-            } else {reject('Postcode location retrieval failed.')}
+            } else {reject('Invalid postcode')}
         });
     })
 }
