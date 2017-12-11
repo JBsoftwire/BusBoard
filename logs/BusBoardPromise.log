@@ -18,3 +18,46 @@
 [2017-12-11T09:26:03.216] [WARN] BusBoardPromise.log - error: null
 [2017-12-11T09:26:03.244] [WARN] BusBoardPromise.log - error: null
 [2017-12-11T09:26:03.334] [WARN] BusBoardPromise.log - error: null
+[2017-12-11T09:34:47.991] [WARN] BusBoardPromise.log - error: null
+[2017-12-11T09:34:48.448] [WARN] BusBoardPromise.log - error: null
+[2017-12-11T09:34:48.506] [WARN] BusBoardPromise.log - error: null
+[2017-12-11T09:34:53.961] [WARN] BusBoardPromise.log - error: null
+[2017-12-11T09:34:58.595] [WARN] BusBoardPromise.log - error: null
+[2017-12-11T09:35:26.584] [WARN] BusBoardPromise.log - error: null
+[2017-12-11T09:35:26.631] [WARN] BusBoardPromise.log - error: null
+[2017-12-11T09:35:26.682] [WARN] BusBoardPromise.log - error: null
+[2017-12-11T09:35:26.689] [WARN] BusBoardPromise.log - error: null
+[2017-12-11T09:35:26.694] [WARN] BusBoardPromise.log - error: null
+[2017-12-11T09:37:46.384] [WARN] BusBoardPromise.log - error: null
+[2017-12-11T09:37:46.785] [WARN] BusBoardPromise.log - error: null
+[2017-12-11T09:37:47.263] [WARN] BusBoardPromise.log - error: null
+[2017-12-11T09:37:47.368] [WARN] BusBoardPromise.log - error: null
+[2017-12-11T09:37:49.983] [WARN] BusBoardPromise.log - error: null
+[2017-12-11T09:38:03.727] [WARN] BusBoardPromise.log - error: null
+[2017-12-11T09:38:03.729] [FATAL] BusBoardPromise.log - Failed to recover location data from server. Invalid postcode?
+[2017-12-11T09:44:28.825] [WARN] BusBoardPromise.log - error: null
+[2017-12-11T09:44:28.828] [FATAL] BusBoardPromise.log - Failed to recover location data from server. Invalid postcode?
+[2017-12-11T09:45:53.838] [WARN] BusBoardPromise.log - error: null
+[2017-12-11T09:45:53.841] [FATAL] BusBoardPromise.log - Failed to recover location data from server. Invalid postcode?
+[2017-12-11T09:46:29.563] [WARN] BusBoardPromise.log - error: null
+[2017-12-11T09:46:29.566] [FATAL] BusBoardPromise.log - Failed to recover location data from server. Invalid postcode?
+[2017-12-11T09:50:23.751] [WARN] BusBoardPromise.log - error: null
+[2017-12-11T09:50:23.754] [FATAL] BusBoardPromise.log - Failed to recover location data from server. Invalid postcode?
+[2017-12-11T09:50:23.757] [FATAL] BusBoardPromise.log - Postcode location retrieval failed.
+[2017-12-11T09:53:05.327] [DEBUG] BusBoardPromise.log - Entered requestLocation.
+[2017-12-11T09:53:05.412] [WARN] BusBoardPromise.log - error: null
+[2017-12-11T09:53:05.416] [FATAL] BusBoardPromise.log - Failed to recover location data from server. Invalid postcode?
+[2017-12-11T09:53:05.424] [FATAL] BusBoardPromise.log - Postcode location retrieval failed.
+[2017-12-11T09:53:05.425] [DEBUG] BusBoardPromise.log - Entered requestArrivals.
+[2017-12-11T09:53:50.029] [DEBUG] BusBoardPromise.log - Entered requestLocation.
+[2017-12-11T09:53:50.099] [WARN] BusBoardPromise.log - error: null
+[2017-12-11T09:53:50.101] [FATAL] BusBoardPromise.log - Failed to recover location data from server. Invalid postcode?
+[2017-12-11T09:53:50.104] [FATAL] BusBoardPromise.log - Postcode location retrieval failed.
+[2017-12-11T09:53:50.105] [DEBUG] BusBoardPromise.log - Entered requestArrivals.
+[2017-12-11T09:58:40.441] [DEBUG] BusBoardPromise.log - Entered requestLocation.
+[2017-12-11T09:59:45.642] [DEBUG] BusBoardPromise.log - Entered requestLocation.
+[2017-12-11T09:59:45.707] [WARN] BusBoardPromise.log - error: null
+[2017-12-11T09:59:45.709] [FATAL] BusBoardPromise.log - Failed to recover location data from server. Invalid postcode?
+[2017-12-11T09:59:45.712] [FATAL] BusBoardPromise.log - Postcode location retrieval failed.
+[2017-12-11T09:59:45.713] [DEBUG] BusBoardPromise.log - Entered requestArrivals.
+[2017-12-11T09:59:45.715] [FATAL] BusBoardPromise.log - Cannot form arrivals list.

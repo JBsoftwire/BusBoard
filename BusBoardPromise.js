@@ -27,7 +27,7 @@ function getPostcode() {
     return readline.prompt();
 }
 
-function prepareBusLists(stops, count) { // given
+function prepareBusLists(stops, count) { // given a list of buses arriving stops, sorts out the next (up to) [count] to arrive at each
     let busList = [];
     stops.forEach((stop) => {
         let buses = [];
@@ -40,7 +40,7 @@ function prepareBusLists(stops, count) { // given
     return busList
 }
 
-function printBuses(buses, count) {
+function printBuses(buses) {
     // 'buses' is an array. each entry is a subarray, containing 1 or more subsubarrays.
     // each subsubarray is a list of buses arriving next
     buses.forEach((stop) => {
@@ -60,7 +60,7 @@ function printBuses(buses, count) {
             } else {
                 secondString = seconds + ' seconds.';
             }
-            console.log('A route', bus.line, 'bus heading toward', bus.destination, 'will arrive at', bus.stop, 'in', minuteString, 'and', secondString)
+            console.log('A route', bus.line, 'bus heading toward', bus.destination, 'will arrive in', minuteString, 'and', secondString)
         })
     })
 }
@@ -70,6 +70,8 @@ let stopCount = 2;
 let postcode = getPostcode();
 let urlPostcode = url.postcodeToURL(postcode);
 
-requests.requestLocation(urlPostcode, appURL).then((urlLocation) => requests.requestNearbyStops(urlLocation, stopCount))
+requests.requestLocation(urlPostcode, appURL).then((urlLocation) => requests.requestNearbyStops(urlLocation, stopCount),
+                                                    (err) => {console.log(err); logger.fatal(err)})
                             .then((nearStops) => requests.requestArrivals(nearStops, appURL))
-                            .then((nextBuses) => {nextBuses = prepareBusLists(nextBuses, busCount); printBuses(nextBuses, busCount);});
+                            .then((nextBuses) => {nextBuses = prepareBusLists(nextBuses, busCount); printBuses(nextBuses);},
+                            (err) => {console.log(err); logger.fatal(err)});
