@@ -26,8 +26,12 @@ function prepareBusLists(stops, busCount) {
             buses = buses.concat(stoplet);
         });
         buses = buses.sort(earlyBus).slice(0, busCount);
+        // buses['stop'] = buses[0].stop
         busList.push(buses)
     });
+    // busList.forEach((stop) => {
+    //     stop['name'] = stop[0].stop;
+    // })
     busList = busList.filter(stop => stop.length > 0);
     return busList
 }

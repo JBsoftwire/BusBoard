@@ -19,7 +19,7 @@ const location = require('./location');
 const stops = require('./stops');
 const arrivals = require('./arrivals');
 const print = require('./print');
-const printWeb = require('./printWeb')
+// const printWeb = require('./printWeb');
 
 const appID = '10d7f3ed';
 const appKey = '298858f961a22f8766e39ac81f627ab4';
@@ -37,9 +37,11 @@ counts.stopCount = 2;
 // let postcode= 'SW193JR';
 // let postcode= 'N80AH';
 
-app.get('/departureBoards/:postcode', (req, res) => {
+app.use(express.static('frontend'))
+
+app.get('/departureBoards/', (req, res) => {
     // res.send(req.params.postcode);
-    location.requestLocation(req.params.postcode)
+    location.requestLocation(req.query.postcode)
         .then((data) => stops.requestStops(data, counts.stopCount), (err) => {res.status(400).send(err)})
         .then(arrivals.requestArrivals)
         .then((buses) => {buses = print.prepareBusLists(buses, counts.busCount); if (buses.length > 0) {
