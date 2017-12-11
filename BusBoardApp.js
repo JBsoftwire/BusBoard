@@ -37,7 +37,8 @@ counts.stopCount = 2;
 // let postcode= 'SW193JR';
 // let postcode= 'N80AH';
 
-app.use(express.static('frontend'))
+app.use(express.static('frontend'));
+app.use('/anything', express.static('frontend/anything.html'));
 
 app.get('/departureBoards/', (req, res) => {
     // res.send(req.params.postcode);

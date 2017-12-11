@@ -1293,3 +1293,79 @@
 [2017-12-11T17:16:40.534] [DEBUG] BusBoard2.log - Entered requestArrivals.
 [2017-12-11T17:16:40.537] [ERROR] BusBoardApp.log - Cannot form arrivals list.
 [2017-12-11T17:16:40.538] [WARN] BusBoardApp.log - Something went wrong.
+[2017-12-11T17:25:27.723] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T17:25:27.779] [FATAL] BusBoard2.log - Failed to recover location data from server. Invalid postcode?
+[2017-12-11T17:25:27.783] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T17:25:27.785] [ERROR] BusBoardApp.log - Cannot form arrivals list.
+[2017-12-11T17:25:27.786] [WARN] BusBoardApp.log - Something went wrong.
+[2017-12-11T17:36:25.673] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T17:36:25.737] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T17:36:25.739] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T17:36:25.782] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T17:36:25.785] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T17:36:25.787] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T17:36:26.171] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T17:36:31.641] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T17:36:31.658] [FATAL] BusBoard2.log - Failed to recover location data from server. Invalid postcode?
+[2017-12-11T17:36:31.661] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T17:36:31.664] [ERROR] BusBoardApp.log - Cannot form arrivals list.
+[2017-12-11T17:36:31.665] [WARN] BusBoardApp.log - Something went wrong.
+[2017-12-11T17:36:43.393] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T17:36:43.416] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T17:36:43.418] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T17:36:43.457] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T17:36:43.458] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T17:36:43.460] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T17:36:44.716] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T17:36:49.969] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T17:36:49.996] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T17:36:49.998] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T17:36:50.133] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T17:36:50.134] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T17:36:50.136] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T17:36:50.373] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T17:36:59.864] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T17:36:59.888] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T17:36:59.890] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T17:36:59.947] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T17:36:59.949] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T17:36:59.950] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T17:37:00.347] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T17:37:02.808] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T17:37:02.833] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T17:37:02.834] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T17:37:02.885] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T17:37:02.888] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T17:37:02.891] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T17:37:04.211] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T17:37:43.001] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T17:37:43.027] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T17:37:43.028] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T17:37:43.059] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T17:37:43.061] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T17:37:43.063] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T17:37:43.139] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T17:38:31.938] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T17:38:31.956] [FATAL] BusBoard2.log - Failed to recover location data from server. Invalid postcode?
+[2017-12-11T17:38:31.958] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T17:38:31.960] [ERROR] BusBoardApp.log - Cannot form arrivals list.
+[2017-12-11T17:38:31.962] [WARN] BusBoardApp.log - Something went wrong.
+[2017-12-11T17:38:40.712] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T17:38:40.729] [FATAL] BusBoard2.log - Failed to recover location data from server. Invalid postcode?
+[2017-12-11T17:38:40.731] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T17:38:40.733] [ERROR] BusBoardApp.log - Cannot form arrivals list.
+[2017-12-11T17:38:40.735] [WARN] BusBoardApp.log - Something went wrong.
+[2017-12-11T17:39:00.056] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T17:39:00.351] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T17:39:00.355] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T17:39:00.395] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T17:39:00.399] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T17:39:00.404] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T17:39:02.105] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T17:39:12.663] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T17:39:12.688] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T17:39:12.689] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T17:39:12.733] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T17:39:12.735] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T17:39:12.738] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T17:39:12.948] [DEBUG] BusBoard2.log - Entered prepareBusLists.

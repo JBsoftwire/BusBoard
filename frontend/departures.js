@@ -15,20 +15,25 @@ function getPostcode() {
     // xhttp.setRequestHeader('Content-Type', 'application/json');
     xhttp.open('GET', url, true);
     xhttp.onload = function() {
-        var buses = JSON.parse(xhttp.response);
-        var newHTML = '';
-        for (var i = 0; i < buses.length; i++) {
-            console.log(buses[i]);
-            newHTML = newHTML + '<h3>' + buses[i][0]['stop'] + '</h3>\n<ul>\n';
-            for (var j = 0; j < buses[i].length; j++) {
-                var bus = buses[i][j];
-                var minuteString = parseInt(bus['ETA']/60) + ' minutes';
-                var secondString = parseInt(bus['ETA']%60) + ' seconds';
-                newHTML = newHTML+'<li>'+ minuteString +' and '+ secondString +': number '+ bus['line'] +' to '+ bus['destination'] + '</li>\n';
+        console.log(xhttp.response)
+        try {
+            var buses = JSON.parse(xhttp.response);
+            var newHTML = '';
+            for (var i = 0; i < buses.length; i++) {
+                console.log(buses[i]);
+                newHTML = newHTML + '<h3>' + buses[i][0]['stop'] + '</h3>\n<ul>\n';
+                for (var j = 0; j < buses[i].length; j++) {
+                    var bus = buses[i][j];
+                    var minuteString = parseInt(bus['ETA']/60) + ' minutes';
+                    var secondString = parseInt(bus['ETA']%60) + ' seconds';
+                    newHTML = newHTML+'<li>'+ minuteString +' and '+ secondString +': number '+ bus['line'] +' to '+ bus['destination'] + '</li>\n';
+                }
+                newHTML = newHTML + '</ul>\n'
             }
-            newHTML = newHTML + '</ul>\n'
+            document.getElementById("results").innerHTML = newHTML
+        } catch (error) {
+            document.getElementById("results").innerHTML = '<h3>' + xhttp.response + '</h3>'
         }
-        document.getElementById("results").innerHTML = newHTML
     };
     xhttp.send();
 }
