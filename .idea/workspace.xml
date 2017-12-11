@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9646f44-3f10-4388-a6e7-dde17a7edc85" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/request.js" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/BusBoardPromise.js" afterPath="$PROJECT_DIR$/BusBoardPromise.js" />
+      <change beforePath="$PROJECT_DIR$/logs/BusBoardPromise.log" afterPath="$PROJECT_DIR$/logs/BusBoardPromise.log" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,7 +19,7 @@
       <file leaf-file-name="BusBoard.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BusBoard.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="479">
+            <state relative-caret-position="239">
               <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
               <folding />
             </state>
@@ -26,8 +29,18 @@
       <file leaf-file-name="BusBoardPromise.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BusBoardPromise.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+            <state relative-caret-position="879">
+              <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="request.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/request.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="279">
+              <caret line="37" column="50" lean-forward="false" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -36,7 +49,7 @@
       <file leaf-file-name="listMakers.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/listMakers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="840">
+            <state relative-caret-position="514">
               <caret line="21" column="86" lean-forward="false" selection-start-line="21" selection-start-column="86" selection-end-line="21" selection-end-column="86" />
               <folding />
             </state>
@@ -103,6 +116,7 @@
         <option value="$PROJECT_DIR$/sorters.js" />
         <option value="$PROJECT_DIR$/URLconstructors.js" />
         <option value="$PROJECT_DIR$/listMakers.js" />
+        <option value="$PROJECT_DIR$/request.js" />
         <option value="$PROJECT_DIR$/BusBoardPromise.js" />
       </list>
     </option>
@@ -293,12 +307,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1512648512442</updated>
-      <workItem from="1512648514471" duration="50915000" />
+      <workItem from="1512648514471" duration="52288000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50915000" />
+    <option name="totallyTimeSpent" value="52288000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4813" y="1150" width="3544" height="2913" extended-state="0" />
@@ -375,7 +389,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/listMakers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
+        <state relative-caret-position="514">
           <caret line="21" column="86" lean-forward="false" selection-start-line="21" selection-start-column="86" selection-end-line="21" selection-end-column="86" />
           <folding />
         </state>
@@ -383,16 +397,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/BusBoard.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
+        <state relative-caret-position="239">
           <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/request.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="37" column="50" lean-forward="false" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BusBoardPromise.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+        <state relative-caret-position="879">
+          <caret line="66" column="0" lean-forward="true" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
           <folding />
         </state>
       </provider>
