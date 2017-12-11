@@ -674,3 +674,167 @@
 [2017-12-11T13:12:55.365] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
 [2017-12-11T13:12:55.975] [DEBUG] BusBoard2.log - Entered prepareBusLists.
 [2017-12-11T13:12:55.977] [DEBUG] BusBoard2.log - Entered printBuses.
+[2017-12-11T14:00:45.382] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T14:00:57.001] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T14:00:59.778] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T14:00:59.853] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T14:00:59.854] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T14:01:00.018] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T14:01:00.020] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T14:01:00.022] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T14:01:00.529] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T14:01:00.533] [DEBUG] BusBoard2.log - Entered printBuses.
+[2017-12-11T14:01:49.532] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T14:02:15.026] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T14:02:17.763] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T14:02:17.827] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T14:02:17.829] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T14:02:18.125] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T14:02:18.129] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T14:02:18.134] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T14:02:19.848] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T14:02:19.849] [DEBUG] BusBoard2.log - Entered printBuses.
+[2017-12-11T14:02:38.347] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T14:02:41.472] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T14:02:41.539] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T14:02:41.542] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T14:02:41.767] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T14:02:41.770] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T14:02:41.775] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T14:02:48.551] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T14:02:48.555] [DEBUG] BusBoard2.log - Entered printBuses.
+[2017-12-11T14:03:11.452] [DEBUG] BusBoard2.log - initiating program
+[2017-12-11T14:03:13.891] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T14:03:13.966] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T14:03:13.967] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T14:03:14.028] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T14:03:14.029] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T14:03:14.031] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T14:03:14.079] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T14:03:14.081] [DEBUG] BusBoard2.log - Entered printBuses.
+[2017-12-11T14:09:49.655] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T14:09:49.725] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T14:09:49.727] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T14:09:49.777] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T14:09:49.779] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T14:09:49.781] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T14:09:50.049] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T14:09:50.050] [ERROR] BusBoardApp.log - ReferenceError: json is not defined
+    at location.requestLocation.then.then.then (C:\Work\Training\BusBoard\BusBoardApp.js:43:91)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2017-12-11T14:09:50.056] [WARN] BusBoardApp.log - Something went wrong.
+[2017-12-11T14:11:30.365] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T14:11:30.441] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T14:11:30.443] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T14:11:30.525] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T14:11:30.527] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T14:11:30.529] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T14:11:32.048] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T14:11:32.052] [ERROR] BusBoardApp.log - ReferenceError: json is not defined
+    at location.requestLocation.then.then.then (C:\Work\Training\BusBoard\BusBoardApp.js:44:91)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2017-12-11T14:11:32.066] [WARN] BusBoardApp.log - Something went wrong.
+[2017-12-11T14:12:10.240] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T14:12:10.304] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T14:12:10.306] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T14:12:10.359] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T14:12:10.362] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T14:12:10.367] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T14:12:10.541] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T14:12:10.546] [ERROR] BusBoardApp.log - ReferenceError: json is not defined
+    at location.requestLocation.then.then.then (C:\Work\Training\BusBoard\BusBoardApp.js:44:91)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2017-12-11T14:12:10.561] [WARN] BusBoardApp.log - Something went wrong.
+[2017-12-11T14:13:08.696] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T14:13:08.764] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T14:13:08.765] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T14:13:08.850] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T14:13:08.854] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T14:13:08.860] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T14:13:12.037] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T14:13:12.074] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T14:13:12.075] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T14:13:12.146] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T14:13:12.149] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T14:13:12.155] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T14:13:13.849] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T14:13:13.852] [ERROR] BusBoardApp.log - ReferenceError: json is not defined
+    at location.requestLocation.then.then.then (C:\Work\Training\BusBoard\BusBoardApp.js:44:91)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2017-12-11T14:13:13.869] [WARN] BusBoardApp.log - Something went wrong.
+[2017-12-11T14:13:16.543] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T14:13:16.547] [ERROR] BusBoardApp.log - ReferenceError: json is not defined
+    at location.requestLocation.then.then.then (C:\Work\Training\BusBoard\BusBoardApp.js:44:91)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2017-12-11T14:13:16.552] [WARN] BusBoardApp.log - Something went wrong.
+[2017-12-11T14:13:22.497] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T14:13:22.520] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T14:13:22.522] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T14:13:22.591] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T14:13:22.592] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T14:13:22.594] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T14:13:22.716] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T14:13:22.720] [ERROR] BusBoardApp.log - ReferenceError: json is not defined
+    at location.requestLocation.then.then.then (C:\Work\Training\BusBoard\BusBoardApp.js:44:91)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2017-12-11T14:13:22.724] [WARN] BusBoardApp.log - Something went wrong.
+[2017-12-11T14:15:22.390] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T14:15:22.439] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T14:15:22.441] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T14:15:22.561] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T14:15:22.563] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T14:15:22.565] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T14:15:22.645] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T14:15:22.648] [ERROR] BusBoardApp.log - ReferenceError: json is not defined
+    at location.requestLocation.then.then.then (C:\Work\Training\BusBoard\BusBoardApp.js:44:91)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2017-12-11T14:15:22.650] [WARN] BusBoardApp.log - Something went wrong.
+[2017-12-11T14:40:10.163] [DEBUG] BusBoardApp.log - starting app.get
+[2017-12-11T14:40:10.165] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T14:40:10.232] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T14:40:10.234] [DEBUG] BusBoardApp.log - starting stopRequest
+[2017-12-11T14:40:10.235] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T14:40:10.238] [DEBUG] BusBoardApp.log - starting arrivalRequest
+[2017-12-11T14:40:10.239] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T14:40:10.241] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T14:40:10.242] [ERROR] BusBoardApp.log - TypeError: Cannot read property 'forEach' of undefined
+    at Object.prepareBusLists (C:\Work\Training\BusBoard\print.js:23:11)
+    at location.requestLocation.then.then.then (C:\Work\Training\BusBoard\BusBoardApp.js:45:41)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2017-12-11T14:40:10.248] [WARN] BusBoardApp.log - Something went wrong.
+[2017-12-11T14:42:03.292] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T14:42:03.363] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T14:42:03.366] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T14:42:03.480] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T14:42:03.484] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T14:42:03.491] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T14:42:08.298] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T14:42:45.968] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T14:42:46.039] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T14:42:46.041] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T14:42:46.090] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T14:42:46.091] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T14:42:46.093] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T14:42:46.261] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T14:43:13.592] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T14:43:13.656] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T14:43:13.658] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T14:43:13.705] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T14:43:13.707] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T14:43:13.709] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T14:43:14.193] [DEBUG] BusBoard2.log - Entered prepareBusLists.
+[2017-12-11T14:51:59.107] [DEBUG] BusBoard2.log - Entered requestLocation
+[2017-12-11T14:51:59.174] [DEBUG] BusBoard2.log - successfully retrieved location data
+[2017-12-11T14:51:59.175] [DEBUG] BusBoard2.log - Entered requestStops
+[2017-12-11T14:51:59.253] [DEBUG] BusBoard2.log - Entered requestArrivals.
+[2017-12-11T14:51:59.254] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T14:51:59.256] [DEBUG] BusBoard2.log - Entered requestArrivalsSingle.
+[2017-12-11T14:52:04.243] [DEBUG] BusBoard2.log - Entered prepareBusLists.
