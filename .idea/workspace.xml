@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9646f44-3f10-4388-a6e7-dde17a7edc85" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/BusBoardApp.js" afterPath="$PROJECT_DIR$/BusBoardApp.js" />
-      <change beforePath="$PROJECT_DIR$/frontend/departures.js" afterPath="$PROJECT_DIR$/frontend/departures.js" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/frontend/anything.html" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/anything.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/frontend/index.html" afterPath="$PROJECT_DIR$/frontend/index.html" />
       <change beforePath="$PROJECT_DIR$/logs/BusBoard2.log" afterPath="$PROJECT_DIR$/logs/BusBoard2.log" />
       <change beforePath="$PROJECT_DIR$/logs/BusBoardApp.log" afterPath="$PROJECT_DIR$/logs/BusBoardApp.log" />
     </list>
@@ -16,31 +18,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="750">
-      <file leaf-file-name="BusBoardApp.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BusBoardApp.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BusBoardApp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="25" />
+            <state relative-caret-position="714">
+              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="location.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/location.js">
+      <file leaf-file-name="anything.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frontend/anything.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
-              <caret line="25" column="39" lean-forward="false" selection-start-line="25" selection-start-column="38" selection-end-line="25" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="anything.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/anything.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="840">
+              <caret line="21" column="73" lean-forward="false" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="73" />
               <folding />
             </state>
           </provider>
@@ -49,8 +41,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            <state relative-caret-position="1160">
+              <caret line="29" column="112" lean-forward="false" selection-start-line="29" selection-start-column="112" selection-end-line="29" selection-end-column="112" />
               <folding />
             </state>
           </provider>
@@ -59,28 +51,8 @@
       <file leaf-file-name="departures.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontend/departures.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1114">
-              <caret line="34" column="82" lean-forward="false" selection-start-line="34" selection-start-column="82" selection-end-line="34" selection-end-column="82" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="print.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/print.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="42" column="27" lean-forward="true" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="arrivals.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/arrivals.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
-              <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
+            <state relative-caret-position="199">
+              <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -153,11 +125,12 @@
         <option value="$PROJECT_DIR$/printWeb.js" />
         <option value="$PROJECT_DIR$/location.js" />
         <option value="$PROJECT_DIR$/frontend/styles.css" />
-        <option value="$PROJECT_DIR$/frontend/index.html" />
         <option value="$PROJECT_DIR$/print.js" />
-        <option value="$PROJECT_DIR$/anything.html" />
         <option value="$PROJECT_DIR$/BusBoardApp.js" />
+        <option value="$PROJECT_DIR$/anything.html" />
         <option value="$PROJECT_DIR$/frontend/departures.js" />
+        <option value="$PROJECT_DIR$/frontend/index.html" />
+        <option value="$PROJECT_DIR$/frontend/anything.html" />
       </list>
     </option>
   </component>
@@ -241,6 +214,7 @@
       <recent name="C:\Work\Training\BusBoard" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Work\Training\BusBoard\frontend" />
       <recent name="C:\Work\Training\BusBoard" />
     </key>
   </component>
@@ -371,12 +345,12 @@
       <option name="presentableId" value="Default" />
       <updated>1512648512442</updated>
       <workItem from="1512648514471" duration="52392000" />
-      <workItem from="1512984724286" duration="28698000" />
+      <workItem from="1512984724286" duration="34577000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81090000" />
+    <option name="totallyTimeSpent" value="86969000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4813" y="1150" width="3684" height="2913" extended-state="0" />
@@ -617,34 +591,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arrivals.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/print.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="42" column="27" lean-forward="true" selection-start-line="42" selection-start-column="27" selection-end-line="42" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="16" column="20" lean-forward="true" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/anything.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -657,18 +607,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/departures.js">
+    <entry file="file://$PROJECT_DIR$/arrivals.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1114">
-          <caret line="34" column="82" lean-forward="false" selection-start-line="34" selection-start-column="82" selection-end-line="34" selection-end-column="82" />
+        <state relative-caret-position="760">
+          <caret line="19" column="23" lean-forward="true" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/BusBoardApp.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="17" selection-end-line="36" selection-end-column="25" />
+        <state relative-caret-position="714">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/departures.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1160">
+          <caret line="29" column="112" lean-forward="false" selection-start-line="29" selection-start-column="112" selection-end-line="29" selection-end-column="112" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/anything.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="21" column="73" lean-forward="false" selection-start-line="21" selection-start-column="57" selection-end-line="21" selection-end-column="73" />
           <folding />
         </state>
       </provider>
